@@ -20,5 +20,8 @@ int main()
         fgets(Word, sizeof Word, stdin);
         fputs(Word, fptr);
     }
+    
+    fclose(fptr);
+    
     return 0;
 }
